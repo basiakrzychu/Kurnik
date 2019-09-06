@@ -18,16 +18,16 @@ namespace Kurnik
             agents.Add(new JajkoAgent(2, 10));
 
 
-            agents.Add(new JajkoAgent(3, 10));
+         /*   agents.Add(new JajkoAgent(3, 10));
             agents.Add(new JajkoAgent(4, 10));
             agents.Add(new JajkoAgent(5, 10));
             agents.Add(new JajkoAgent(6, 10));
             agents.Add(new JajkoAgent(7, 10));
-            agents.Add(new JajkoAgent(8, 10));
+            agents.Add(new JajkoAgent(8, 10));*/
             return agents;
         }
 
-       static public int i = 9;
+       static public int i = 3;
        
 
         public static void RunThreads(List<Agent> agents)

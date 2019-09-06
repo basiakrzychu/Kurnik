@@ -9,7 +9,7 @@ public class Wait
     // Non-Static method 
     public void mythread()
     {
-        for (int x = 1; x <4; x++)
+        for (int x = 1; x <2; x++)
         {
             Console.WriteLine(x);
             Thread.Sleep(1000);
